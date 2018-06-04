@@ -17,10 +17,11 @@ public class Jogo extends JFrame {
     int playerX = 300;
     int playerY = 300;
     int pont = 0;
+
     
-        
+    
     public void editarComponetes(){
-        lPlayer.setBounds(playerX, playerY, 80, 80);
+        lPlayer.setBounds(playerX, playerY, 90, 125);
         lSaida.setBounds(0, 0, 148, 125);
     }    
     
@@ -30,8 +31,8 @@ public class Jogo extends JFrame {
         setLocationRelativeTo(null);
         setVisible(true);
         setLayout(null);
-        add(lSaida);
         add(lPlayer);
+        add(lSaida);
     }
 
     
@@ -46,6 +47,7 @@ public class Jogo extends JFrame {
                 if((playerY <= 50) && (playerX <= 80)){
                     TelaFinal tela = new TelaFinal(pont);
                     tela.setVisible(true);
+                    dispose();
                 }
             }
 
@@ -63,7 +65,7 @@ public class Jogo extends JFrame {
                     playerX +=30;
                 }
                 pont ++;
-                lPlayer.setBounds(playerX, playerY, 80, 80);
+                lPlayer.setBounds(playerX, playerY, 90, 125);
             }
             
         });
@@ -76,9 +78,21 @@ public class Jogo extends JFrame {
     }
     
     public static void main(String[] args) {
-        new Jogo();
         
-        //jogos.setVisible(true);
+        //int quantJogo;
+        //int record;
+        
+        //quantJogo = 
+    
+        //if( quantJogo > 0 ){
+            TelaInicial telaI = new TelaInicial();
+            telaI.setVisible(true);
+        
+        /*} else {
+        TelaInicial telaI = new TelaInicial(quantJogo, record);
+        telaI.setVisible(true);
+        }*/
+        
     }
     
 }
