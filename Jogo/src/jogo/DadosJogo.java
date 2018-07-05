@@ -9,7 +9,7 @@ package jogo;
  *
  * @author Anderson
  */
-public class DadosJogo extends Jogo {
+public class DadosJogo {
 
     public int getPontuacao() {
         return pontuacao;

@@ -16,7 +16,10 @@ public class Inimigo extends Personagem {
     
     ImageIcon icon = new ImageIcon(getClass().getResource("inimigo1.png"));
     
-    JLabel label = new JLabel(icon);
+    JLabel label0 = new JLabel(icon);
+    JLabel label1 = new JLabel(icon);
+    JLabel label2 = new JLabel(icon);
+    JLabel label3 = new JLabel(icon);
     
     int x = 500;
     int y = 100;

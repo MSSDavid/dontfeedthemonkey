@@ -77,7 +77,7 @@ public class TelaInicial extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
 
         //Inicia o Jogo
-        new Jogo();
+        new Jogo(1);
         dispose();
     }                                        
 

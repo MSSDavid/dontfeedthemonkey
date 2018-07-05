@@ -26,7 +26,7 @@ public class TelaFinal extends javax.swing.JFrame {
     public TelaFinal(int pont) {
         initComponents();
         pont = 1017 - pont;
-        if(pont < 0){
+        if(pont <= 0){
             pont = 1;
         }
         pontuacao = "Pontuação: " + pont;
