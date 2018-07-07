@@ -29,34 +29,7 @@ public class Jogo extends JFrame {
     //Set como JLabel para manipular no programa
     JLabel lSaida = new JLabel (iconSaida);
     JLabel lFundo1 = new JLabel(iconFundo1);
-
-    /**
-     *Set os tamanhos dos objetos no tela em pixels
-     */
-    public void editarComponetes(){
-        player.label.setBounds(player.x, player.y, 60, 125);
-        lSaida.setBounds(0, 0, 148, 125);
-        lFundo1.setBounds(0, 0, 800, 700);
-        //inimigo1.label.setBounds(inimigo1.x, inimigo1.y, 30, 35);
-        //inimigo2.label.setBounds(inimigo2.x, inimigo2.y, 35, 37);
-    }    
     
-    /**
-     *Define o Tamanho da Janela e coloca os objetos nela
-     */
-    public void editarJanela(){
-        /*setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setSize(800,700);
-        setLocationRelativeTo(null);
-        setVisible(true);
-        setLayout(null);
-        add(player.label);
-        add(lSaida);
-        add(inimigo1.label);
-        add(inimigo2.label);
-        add(lFundo1);*/
-    }
-
     //realiza o movimento do objeto Personagem, com as teclas do teclado
     public void movimento(int i){
         addKeyListener(new KeyListener(){
