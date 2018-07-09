@@ -7,9 +7,9 @@ Jogo criado para a disciplina de POO, em que o jogador deve encontrar a saída d
 
 
 
-## Funcionamento da Classe
+## Casos de Uso
 
-
+![Fluxo Arquitetural](https://github.com/MSSDavid/dontfeedthemonkey/blob/master/Documenta%C3%A7%C3%A3o/Caso%20de%20Uso_Imagem.png)  
 
 ## Integrantes
 
@@ -21,7 +21,7 @@ Jose Carlos Rodrigues Teles | Desenvolvedor |
  Viviane Sousa de Melo | Documentação | 
  
  ## Documentação do Código Fonte
- [Clique aqui](https://mssdavid.github.io/integrador/) para acessar a documentação.
+ [Clique aqui](https://github.com/MSSDavid/dontfeedthemonkey/tree/master/Documenta%C3%A7%C3%A3o/) para acessar a documentação.
  
  ## Comunicação 
  Pessoal, Trello e WhatsApp.
