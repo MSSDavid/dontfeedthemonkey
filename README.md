@@ -9,8 +9,12 @@ Jogo criado para a disciplina de POO, em que o jogador deve encontrar a saída d
 
 ## Casos de Uso
 
-![Fluxo Arquitetural](https://github.com/MSSDavid/dontfeedthemonkey/blob/master/Documenta%C3%A7%C3%A3o/Caso%20de%20Uso_Imagem.png)  
+![Casos de Uso](https://github.com/MSSDavid/dontfeedthemonkey/blob/master/Documenta%C3%A7%C3%A3o/Caso%20de%20Uso_Imagem.png)  
 
+## Diagrama de Classes
+
+![Diagrama de Classes](https://github.com/MSSDavid/dontfeedthemonkey/blob/master/Documenta%C3%A7%C3%A3o/uml4.png)  
+ 
 ## Integrantes
 
 | Integrante | Função |
